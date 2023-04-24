@@ -13,7 +13,7 @@ const TeamTemplate = ({ position, name }) => {
 
             <div className="absolute left-10 bottom-4">
                 <h1 className='font-bold text-xl'>{position}</h1>
-                <h2>{name}</h2>
+                {/* <h2>{name}</h2> */}
             </div>
 
 

@@ -131,8 +131,6 @@ export const roadList = [q1Array, q2Array, q3Array, q4Array]
 
 export const token = [
     <p><b>3.000.000</b> seed sale 10% tge vested 2 month cliff 12 months 7.5% a month 10x</p>,
-    <p><b>20.000.000</b> private sale 10% tge vested 2 month cliff 12 months 7.5% a month 5x</p>,
-    <p><b>10.000.000</b> public pre sale 10% tge vested 2 month cliff 12 months 7.5% a month 2.5x</p>,
     <p><b>15.000.000</b> public sale liquidity</p>,
     <p><b>10.000.000</b> team tokens vested 4 month cliff 8.3% a month</p>,
     <p><b>3.000.000</b> advisors 4 month cliff 8.3% a month</p>,
