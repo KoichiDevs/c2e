@@ -8,12 +8,11 @@ const Nft = () => {
         <PageTrans>
             <section className="w-full h-auto min-h-screen bg-blk relative flex items-start py-20">
 
-
                 <h1 className="text-white/10 text-[10rem] absolute bottom-0 -right-20 font-[700] md:block hidden">CC NFT</h1>
 
                 <div className="bg-rd/80 w-[18rem] h-[18rem] rounded-full absolute blur-[13rem] bottom-32 right-32"></div>
 
-                <div className="text-white font-raleway px-10 max-w-[1500px] w-full mx-auto mt-[4rem]">
+                <div className="text-white font-raleway px-10 max-w-[1500px] w-full mx-auto mt-[4rem] relative">
 
                     <div className="">
                         <Anim delay={0.1}>
