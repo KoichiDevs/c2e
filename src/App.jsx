@@ -44,7 +44,7 @@ const App = () => {
                     <ul className=" flex gap-x-2">
                         {navList.map((items, i) => {
                             return (
-                                <p onClick={() => handlePage(items.slug)} className="">
+                                <p onClick={() => handlePage(items.slug)} className="" key={i}>
                                     <li className={`w-3 h-3 rounded-full cursor-pointer ${location.pathname === items.slug ? 'bg-rd' : 'bg-white/50'}`} key={i}>
 
                                     </li>
