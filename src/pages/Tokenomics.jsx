@@ -3,6 +3,7 @@ import { token } from '../utils/list'
 import PageTrans from '../anim/PageTrans'
 import Anim from '../anim/Anim'
 import { motion } from 'framer-motion'
+import ImageAnim from '../components/ImageAnim'
 
 const Tokenomics = () => {
     return (
@@ -13,9 +14,9 @@ const Tokenomics = () => {
 
                 <div className="bg-rd/80 w-[18rem] h-[18rem] rounded-full absolute blur-[13rem] bottom-32 right-32"></div>
 
-                <div className="text-white font-raleway px-10 max-w-[1500px] w-full mx-auto mt-[4rem]">
+                <div className="text-white font-raleway px-10 max-w-[1500px] w-full mx-auto mt-[4rem] flex items-center">
 
-                    <div className="font-raleway">
+                    <div className="font-raleway lg:w-[60%]">
 
                         <Anim delay={0.1}>
                             <h3 className='text-rd font-[700] uppercase'>TOKEN</h3>
@@ -33,6 +34,13 @@ const Tokenomics = () => {
                                 )
                             })}
                         </div>
+                    </div>
+
+                    <div className=" w-[40%] items-center justify-center lg:flex hidden">
+                        <ImageAnim>
+                            <img src="/nft.webp" alt="NFT" className="w-[18rem]" />
+
+                        </ImageAnim>
                     </div>
 
                 </div>

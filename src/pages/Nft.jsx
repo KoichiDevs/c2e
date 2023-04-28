@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import PageTrans from '../anim/PageTrans'
 import Anim from '../anim/Anim'
+import ImageAnim from '../components/ImageAnim'
 
 const Nft = () => {
     return (
@@ -47,7 +48,9 @@ const Nft = () => {
                     </div>
 
                     <div className=" w-[40%] items-center justify-center lg:flex hidden">
-                        <img src="/nft.webp" alt="NFT" className="w-[18rem]" />
+                        <ImageAnim>
+                            <img src="/realnft.webp" alt="NFT" className="w-[25rem] 2xl:w-[28rem]" />
+                        </ImageAnim>
                     </div>
 
 

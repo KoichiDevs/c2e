@@ -1,6 +1,7 @@
 import React from 'react'
 import PageTrans from '../anim/PageTrans'
 import Anim from '../anim/Anim'
+import { motion } from 'framer-motion'
 
 const EcoGoal = () => {
     return (
@@ -49,7 +50,7 @@ const EcoGoal = () => {
 
 
                     <div className="w-[40%] items-center justify-center lg:flex hidden">
-                        <img src="/Eco.webp" alt="NFT" className="w-[18rem] 2xl:w-[22rem]" />
+                        <motion.img initial={{ y: -200, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 1, ease: [0.16, 0.77, 0.47, .97], delay: 0.1 }} src="/realeco.webp" alt="NFT" className="w-[18rem] 2xl:w-[22rem] relative" />
                     </div>
 
                 </div>

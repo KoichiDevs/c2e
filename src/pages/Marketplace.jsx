@@ -1,6 +1,7 @@
 import React from 'react'
 import PageTrans from '../anim/PageTrans'
 import Anim from '../anim/Anim'
+import ImageAnim from '../components/ImageAnim'
 
 const Marketplace = () => {
     return (
@@ -11,9 +12,9 @@ const Marketplace = () => {
 
                 <div className="bg-rd/80 w-[18rem] h-[18rem] rounded-full absolute blur-[13rem] bottom-32 right-32"></div>
 
-                <div className="text-white font-raleway px-10 max-w-[1500px] w-full mx-auto mt-[4rem]">
+                <div className="text-white font-raleway px-10 max-w-[1500px] w-full mx-auto mt-[4rem] flex items-center">
 
-                    <div className="">
+                    <div className="lg:w-[60%]">
                         <Anim delay={0.1}>
                             <h3 className='text-rd font-[700] uppercase'>MARKET</h3>
                             <h1 className="font-[800] text-5xl 2xl:text-6xl">MARKETPLACE</h1>
@@ -36,6 +37,12 @@ const Marketplace = () => {
                                 </p>
                             </Anim>
                         </div>
+                    </div>
+
+                    <div className=" w-[40%] items-center justify-center lg:flex hidden mt-20">
+                        <ImageAnim>
+                            <img src="/market.webp" alt="NFT" className="w-[18rem] 2xl:w-[25rem]" />
+                        </ImageAnim>
                     </div>
 
                 </div>
