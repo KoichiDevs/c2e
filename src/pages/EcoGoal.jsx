@@ -23,7 +23,7 @@ const EcoGoal = () => {
                             <div className="max-w-[50rem] mt-4 2xl:text-xl font-[400] flex flex-col gap-y-5">
                                 <Anim delay={0.2}>
                                     <p className="">
-                                        CC will be the native token of Crypto companies with a supply of 100.000.000M CC NFT will play a big part in the economy of CC. For each business purpose there will be a limited amount of NFT’s that will receive airdrops based on the net profit of the business that belongs to that NFT.
+                                        CC will be the native token of Crypto companies with a supply of 100.000.000 CC NFT will play a big part in the economy of CC. For each business purpose there will be a limited amount of NFT’s that will receive airdrops based on the net profit of the business that belongs to that NFT.
                                     </p>
                                 </Anim>
                                 <Anim delay={0.3}>

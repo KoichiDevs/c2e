@@ -22,7 +22,7 @@ const Marketplace = () => {
                         <div className="max-w-[50rem] mt-4 2xl:text-xl flex flex-col gap-y-6">
                             <Anim delay={0.2}>
                                 <p className="">
-                                    The NFT will be able to sell on Opensea there where they can increase in value as there is limited supply of 500 Make up NFT’s and as the net profit of the store will grow the value of the NFT will grow too due to increasing rewards.
+                                    The NFT will be able to sell on Opensea there where they can increase in value as there is limited supply of 500 Casino NFT’s and as the net profit of the store will grow the value of the NFT will grow too due to increasing rewards.
                                 </p>
                             </Anim>
                             <Anim delay={0.3}>

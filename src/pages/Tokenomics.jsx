@@ -33,6 +33,8 @@ const Tokenomics = () => {
                                     <motion.h2 initial={{ y: 50, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 1.5, ease: [0.16, 0.77, 0.47, .97], delay: 0.3 + (i * 0.1) }} key={i}>{items}</motion.h2>
                                 )
                             })}
+
+                            
                         </div>
                     </div>
 

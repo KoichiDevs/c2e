@@ -20,8 +20,8 @@ const Hero = () => {
 
 
                     <div className="font-[800] text-3xl sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-7xl">
-                        <motion.h1 initial={{ y: 50, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 1.5, ease: [0.16, 0.77, 0.47, .97], delay: 0.1 }} >CC THE WEB</motion.h1>
-                        <motion.h1 initial={{ y: 50, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 1.5, ease: [0.16, 0.77, 0.47, .97], delay: 0.2 }} >NFT <span className='text-rd'>INVEST</span>2<span className='text-rd'>EARN</span> PROJECT</motion.h1>
+                        <motion.h1 initial={{ y: 50, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 1.5, ease: [0.16, 0.77, 0.47, .97], delay: 0.1 }} >CC WEB3 NFT</motion.h1>
+                        <motion.h1 initial={{ y: 50, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 1.5, ease: [0.16, 0.77, 0.47, .97], delay: 0.2 }}> <span className='text-rd'>INVEST</span>2<span className='text-rd'>EARN</span> PROJECT</motion.h1>
                     </div>
 
 
