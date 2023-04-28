@@ -4,7 +4,7 @@ import { Routes, Route, useNavigate } from 'react-router-dom'
 import Nav from './components/Nav'
 import { navList } from './utils/list'
 import Nft from './pages/Nft'
-import Marketplace from './pages/Marketplace'
+
 import Companies from './pages/Companies'
 import EcoGoal from './pages/EcoGoal'
 import Startup from './pages/Startup'
@@ -30,7 +30,7 @@ const App = () => {
                     <Routes key={location.pathname} location={location} >
                         <Route exact path="/" element={<Hero />}></Route>
                         <Route exact path="/nft" element={<Nft />}></Route>
-                        <Route exact path="/marketplace" element={<Marketplace />}></Route>
+                        
                         <Route exact path="/companies" element={<Companies />}></Route>
                         <Route exact path="/economy&goal" element={<EcoGoal />}></Route>
                         <Route exact path="/startup" element={<Startup />}></Route>
