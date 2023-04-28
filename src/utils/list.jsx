@@ -7,10 +7,7 @@ export const navList = [
         label: 'NFT',
         slug: '/nft'
     },
-    {
-        label: 'Marketplace',
-        slug: '/marketplace'
-    },
+    
     {
         label: 'Companies',
         slug: '/companies'
