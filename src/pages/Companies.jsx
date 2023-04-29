@@ -10,7 +10,7 @@ const Companies = () => {
         <PageTrans>
             <section className="w-full h-auto min-h-screen bg-blk relative flex items-start py-20">
 
-                <h1 className="text-white/10 text-[10rem] absolute bottom-0 -right-20 font-[700] md:block hidden">COMPANY</h1>
+                <h1 className="text-white/10 text-[10rem] absolute bottom-0 -right-20 font-[700] lg:block hidden">COMPANY</h1>
 
                 <div className="bg-rd/80 w-[18rem] h-[18rem] rounded-full absolute blur-[13rem] bottom-32 right-32"></div>
 
@@ -39,10 +39,13 @@ const Companies = () => {
                         </Anim>
                     </div>
 
-                    <div className="w-[40%] items-center justify-center lg:flex hidden">
+                    <div className="w-[40%] items-center justify-center flex">
                         <ImageAnim>
-                            <img src="/Eco.webp" alt="NFT" className="w-[18rem] 2xl:w-[22rem]" />
+                            <img src="/Eco.webp" alt="NFT" className="w-[18rem] 2xl:w-[22rem] lg:block hidden" />
                         </ImageAnim>
+
+                        <img src="/Eco.webp" alt="NFT" className="w-[18rem] 2xl:w-[22rem] lg:hidden block absolute bottom-10 right-10 opacity-10 z-0" />
+
                     </div>
 
                 </div>

@@ -9,13 +9,13 @@ const Nft = () => {
         <PageTrans>
             <section className="w-full h-auto min-h-screen bg-blk relative flex items-start py-20">
 
-                <h1 className="text-white/10 text-[10rem] absolute bottom-0 -right-20 font-[700] md:block hidden">CC NFT</h1>
+                <h1 className="text-white/10 text-[10rem] absolute bottom-0 -right-20 font-[700] lg:block hidden">CC NFT</h1>
 
                 <div className="bg-rd/80 w-[18rem] h-[18rem] rounded-full absolute blur-[13rem] bottom-32 right-32"></div>
 
                 <div className="text-white font-raleway px-10 max-w-[1500px] w-full mx-auto mt-[4rem] relative flex items-center">
 
-                    <div className="lg:w-[60%]">
+                    <div className="lg:w-[60%] relative z-10">
                         <div className="">
                             <Anim delay={0.1}>
                                 <h3 className='text-rd font-[700]'>NFT</h3>
@@ -47,13 +47,15 @@ const Nft = () => {
                         </div>
                     </div>
 
-                    <div className=" w-[40%] items-center justify-center lg:flex hidden">
+                    <div className="w-[40%] items-center justify-center flex">
                         <ImageAnim>
-                            <img src="/realnft.webp" alt="NFT" className="w-[25rem] 2xl:w-[28rem]" />
+                            <img src="/realnft.webp" alt="NFT" className="w-[25rem] 2xl:w-[28rem] right-0 z-0 lg:block hidden" />
+
+                            
                         </ImageAnim>
+
+                        <img src="/realnft.webp" alt="NFT" className="w-[25rem] 2xl:w-[28rem] right-0 bottom-0 z-0 lg:relative absolute opacity-10 lg:hidden block" />
                     </div>
-
-
 
                 </div>
 

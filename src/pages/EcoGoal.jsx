@@ -8,7 +8,7 @@ const EcoGoal = () => {
         <PageTrans>
             <section className="w-full h-auto min-h-screen bg-blk relative flex items-start py-20">
 
-                <h1 className="text-white/10 text-[10rem] absolute bottom-0 -right-20 font-[700] md:block hidden">ECONOMY</h1>
+                <h1 className="text-white/10 text-[10rem] absolute bottom-0 -right-20 font-[700] lg:block hidden">ECONOMY</h1>
 
                 <div className="bg-rd/80 w-[18rem] h-[18rem] rounded-full absolute blur-[13rem] bottom-32 right-32"></div>
 
@@ -49,8 +49,10 @@ const EcoGoal = () => {
                     </div>
 
 
-                    <div className="w-[40%] items-center justify-center lg:flex hidden">
-                        <motion.img initial={{ y: -200, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 1, ease: [0.16, 0.77, 0.47, .97], delay: 0.1 }} src="/realeco.webp" alt="NFT" className="w-[18rem] 2xl:w-[22rem] relative" />
+                    <div className="w-[40%] items-center justify-center flex">
+                        <motion.img initial={{ y: -200, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 1, ease: [0.16, 0.77, 0.47, .97], delay: 0.1 }} src="/realeco.webp" alt="NFT" className="w-[18rem] 2xl:w-[22rem] relative lg:block hidden" />
+
+                        <img initial={{ y: -200, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 1, ease: [0.16, 0.77, 0.47, .97], delay: 0.1 }} src="/realeco.webp" alt="NFT" className="w-[18rem] 2xl:w-[22rem] absolute lg:hidden block bottom-5 right-5 opacity-10" />
                     </div>
 
                 </div>

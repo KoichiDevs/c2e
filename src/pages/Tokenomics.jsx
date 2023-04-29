@@ -10,7 +10,7 @@ const Tokenomics = () => {
         <PageTrans>
             <section className="w-full h-auto min-h-screen bg-blk relative flex items-start py-20">
 
-                <h1 className="text-white/10 text-[10rem] absolute bottom-0 -right-20 font-[700] md:block hidden">TOKENOMICS</h1>
+                <h1 className="text-white/10 text-[10rem] absolute bottom-0 -right-20 font-[700] lg:block hidden">TOKENOMICS</h1>
 
                 <div className="bg-rd/80 w-[18rem] h-[18rem] rounded-full absolute blur-[13rem] bottom-32 right-32"></div>
 
@@ -38,11 +38,14 @@ const Tokenomics = () => {
                         </div>
                     </div>
 
-                    <div className=" w-[40%] items-center justify-center lg:flex hidden">
+                    <div className=" w-[40%] items-center justify-center flex">
                         <ImageAnim>
-                            <img src="/nft.webp" alt="NFT" className="w-[18rem]" />
+                            <img src="/nft.webp" alt="NFT" className="w-[18rem] lg:block hidden" />
 
                         </ImageAnim>
+
+                        <img src="/nft.webp" alt="NFT" className="w-[18rem] opacity-10 absolute bottom-5 right-5 lg:hidden block" />
+
                     </div>
 
                 </div>
