@@ -19,11 +19,11 @@ const Team = () => {
                     </div>
 
                     <div className="flex flex-wrap gap-8 w-fit mx-auto mt-5 justify-center overflow-hidden">
-                        <TeamTemplate position="CEO" name="Giedo mensinga Doxx" />
-                        <TeamTemplate position="CFO" name="Danny" />
-                        <TeamTemplate position="General Manager" name="Jules DOXX" />
-                        <TeamTemplate position="NFT Artist" name="Chap iemand" />
-                        <TeamTemplate position="Community Manager" name="Easy" />
+                        <TeamTemplate position="CEO/Founder" name="Giedo Mensinga" img="giedo" />
+                        <TeamTemplate position="CFO" name="Okko Mensinga"img="okko" />
+                        <TeamTemplate position="CMO" name="Nick Byrne" img="nick" />
+                        <TeamTemplate position="Admin" name="Kylie De Groot" img="kylie" />
+                        <TeamTemplate position="Token Dev" name="Analytix" img="analytix" />
                     </div>
 
                 </div>
