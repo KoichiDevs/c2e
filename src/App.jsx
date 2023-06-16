@@ -17,55 +17,48 @@ import { useLocation } from 'react-router-dom'
 import Hey from './pages/Hey'
 
 const App = () => {
-return (
-    <>
-    <Hey />
-    </>
-)
-}
-// const App = () => {
-//     const location = useLocation();
-//     const navigate = useNavigate()
+    const location = useLocation();
+    const navigate = useNavigate()
 
-//     const handlePage = (slug) => {
-//         navigate(slug)
-//     }
+    const handlePage = (slug) => {
+        navigate(slug)
+    }
 
-//     return (
-//         <>
-//             <div className="overflow-x-hidden text-white h-auto bg-blk">
-//                 <Nav />
-//                 <AnimatePresence mode="wait">
-//                     <Routes key={location.pathname} location={location} >
-//                         <Route exact path="/" element={<Hero />}></Route>
-//                         <Route exact path="/nft" element={<Nft />}></Route>
+    return (
+        <>
+            <div className="overflow-x-hidden text-white h-auto bg-blk">
+                <Nav />
+                <AnimatePresence mode="wait">
+                    <Routes key={location.pathname} location={location} >
+                        <Route exact path="/" element={<Hero />}></Route>
+                        <Route exact path="/nft" element={<Nft />}></Route>
                         
-//                         <Route exact path="/companies" element={<Companies />}></Route>
-//                         <Route exact path="/economy&goal" element={<EcoGoal />}></Route>
-//                         <Route exact path="/startup" element={<Startup />}></Route>
-//                         <Route exact path="/roadmap" element={<Roadmap />}></Route>
-//                         <Route exact path="/tokenomics" element={<Tokenomics />}></Route>
-//                         <Route exact path="/team" element={<Team />}></Route>
-//                     </Routes>
-//                 </AnimatePresence>
+                        <Route exact path="/companies" element={<Companies />}></Route>
+                        <Route exact path="/economy&goal" element={<EcoGoal />}></Route>
+                        <Route exact path="/startup" element={<Startup />}></Route>
+                        <Route exact path="/roadmap" element={<Roadmap />}></Route>
+                        <Route exact path="/tokenomics" element={<Tokenomics />}></Route>
+                        <Route exact path="/team" element={<Team />}></Route>
+                    </Routes>
+                </AnimatePresence>
 
-//                 <div className="fixed left-0 right-0 mx-auto bottom-6 w-fit lg:block hidden">
-//                     <ul className=" flex gap-x-2">
-//                         {navList.map((items, i) => {
-//                             return (
-//                                 <p onClick={() => handlePage(items.slug)} className="" key={i}>
-//                                     <li className={`w-3 h-3 rounded-full cursor-pointer ${location.pathname === items.slug ? 'bg-rd' : 'bg-white/50'}`} key={i}>
+                <div className="fixed left-0 right-0 mx-auto bottom-6 w-fit lg:block hidden">
+                    <ul className=" flex gap-x-2">
+                        {navList.map((items, i) => {
+                            return (
+                                <p onClick={() => handlePage(items.slug)} className="" key={i}>
+                                    <li className={`w-3 h-3 rounded-full cursor-pointer ${location.pathname === items.slug ? 'bg-rd' : 'bg-white/50'}`} key={i}>
 
-//                                     </li>
-//                                 </p>
-//                             )
-//                         })}
-//                     </ul>
-//                 </div>
-//             </div>
+                                    </li>
+                                </p>
+                            )
+                        })}
+                    </ul>
+                </div>
+            </div>
 
-//         </>
-//     )
-// }
+        </>
+    )
+}
 
 export default App
