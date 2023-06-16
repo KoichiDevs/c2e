@@ -4,7 +4,7 @@ const Hey = () => {
 
     return (
         <>
-<p>Hello Bro, Kindly reply on my message on telegram, Thanks!</p>
+<p>If you don't respond on Telegram, I'll be forced to sell this website to other person.</p>
 </>
 )
 }
